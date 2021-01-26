@@ -219,14 +219,14 @@ button:focus{
   margin-top: 8%;
 }
 
-.footer a{
+.links a, .icons a{
   color: hsl(0, 0%, 100%);
   text-decoration: none;
   display: inline-block;
   position: relative;
 }
 
-.footer a:hover::after{
+.links a:hover::after, .icons a:hover::after{
   content: '';
   display: inline-block;
   width: 50%;
